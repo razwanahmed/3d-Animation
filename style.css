@@ -1,0 +1,161 @@
+
+* { 
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{ 
+    font-family:  "poppins", sans-serif;
+    min-height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.container{
+     /* background-color: lightblue; */
+     width: 40%;
+     margin-top: 65px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     background: rgba(211, 152, 152, 0.548);
+     z-index: 3;
+     border-radius: 30px;
+}
+
+.card{
+    min-height: 80vh;
+    transform-style: preserve-3d;
+    width: 23rem;
+    box-shadow: 0 20px 20px rgba(0,0,0,0.2), 0px 0px 50px rgba(0,0,0,0.2);
+    border-radius:30px ;
+    -webkit-border-radius:30px ;
+    -moz-border-radius:30px ;
+    -ms-border-radius:30px ;
+    -o-border-radius:30px ;
+    padding :0rem 5rem;
+}
+
+   
+.sneakers{
+    min-height: 18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.sneakers img{
+    width: 13rem;
+    z-index: 2;
+    transition: all 0.75s ease-out;
+    
+}
+
+.circle {
+ width: 8rem;
+ height: 8rem;
+ background: linear-gradient( to right, rgba(245,70,66,0.75), rgba(8,83,156,0.75));
+ position: absolute;
+ border-radius:50px ;
+ -webkit-border-radius:50% ;
+ -moz-border-radius:50px ;
+ -ms-border-radius:50px ;
+ -o-border-radius:50px ;
+ z-index: 1;
+}
+
+
+.info h1{
+    font-size:30px;
+    margin-top:30px;
+    margin-bottom: 18px;
+    transition: all 0.75s ease-out;
+     
+}
+.info h3 { 
+    font-size: 13px; 
+    padding: 10px 3px  ; 
+    word-spacing: 1px;
+    line-height: 20px;
+    color : #292424;
+    font-weight: 600;
+    margin-bottom: 40px;
+    transition: all 0.75s ease-out;
+
+}
+
+
+button.active {
+    background : #4d4d4d;
+    color : white;
+   
+}
+
+
+.purchase { 
+    margin-top:50px;
+    transition: all 0.75s ease-out;
+}
+
+.purchase button{
+    width: 100%;
+    padding:8px 12px;
+    background: #f44642;
+    /* border:none; */
+    color: white;
+    cursor: pointer;
+    border-radius:30px;
+    -webkit-border-radius:30px;
+    -moz-border-radius:30px;
+    -ms-border-radius:30px;
+    -o-border-radius:30px;
+    outline: none;
+    font-weight: 800;
+ 
+   
+}
+
+.SIZES {
+     display: flex;
+     justify-content: space-between;
+     transition: all 0.75s ease-out;   
+}
+
+.SIZES button{
+    width: 40px;
+    height: 30px;
+    margin-left: 8px;
+    border-radius:40px;
+    -webkit-border-radius:40px;
+    -moz-border-radius:40px;
+    -ms-border-radius:40px;
+    -o-border-radius:40px;
+     cursor: pointer;
+    outline: none;
+    box-shadow:0 10px 8px rgba(0,0,0,0.2);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
